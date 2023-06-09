@@ -340,7 +340,7 @@ public:
 
 float catering::messCost;
 string catering::cat;
-class receipt : public Student, catering,Room //Multiple Inheritance of some other classes to Chargers
+class receipt : public Student, catering,Room //Multiple Inheritance of some other classes to receipt
 {
 
 public:

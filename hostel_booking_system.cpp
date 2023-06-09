@@ -209,7 +209,7 @@ public:
             }
             else{
                 cout << "Invalid Input! Redirecting to Previous Menu \nPlease Wait!" << endl;
-                Sleep(1100);
+                Sleep(10);
                 system("CLS");
                 caterings();
 
@@ -262,7 +262,7 @@ public:
             }
             else{
                 cout << "Invalid Input! Redirecting to Previous Menu \nPlease Wait!" << endl;
-                Sleep(1100);
+                Sleep(10);
                 system("CLS");
                 caterings();
 
@@ -317,7 +317,7 @@ public:
             }
             else{
                 cout << "Invalid Input! Redirecting to Previous Menu \nPlease Wait!" << endl;
-                Sleep(1100);
+                Sleep(10);
                 system("CLS");
                 caterings();
 
@@ -436,7 +436,7 @@ void menu() //menu function contain main menu
         }
         else{
             cout << "Invalid Input! Redirecting to Previous Menu \nPlease Wait!" << endl;
-           // Sleep(1100);
+           // Sleep(10);
             system("CLS");
             menu();
         }
